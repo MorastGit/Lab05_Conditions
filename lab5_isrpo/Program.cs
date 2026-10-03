@@ -203,17 +203,42 @@
 // Console.WriteLine($"✅ Правильно! Загаданное число: {secret}");
 // Console.WriteLine($"{result}");
 
-Console.WriteLine();
-Console.WriteLine("Задайте пароль:");
-String password = Console.ReadLine();
-Console.WriteLine("Введите пароль повторно:");
-String confirmPassword = Console.ReadLine();
 
-if (password == confirmPassword)
+
+
+
+
+
+
+// САМОСТОЯТЕЛЬНАЯ РАБОТА 1
+
+// Console.WriteLine();
+// Console.WriteLine("Задайте пароль:");
+// String password = Console.ReadLine();
+// Console.WriteLine("Введите пароль повторно:");
+// String confirmPassword = Console.ReadLine();
+
+// if (password == confirmPassword)
+// {
+//     Console.WriteLine("Пароль подтвержден.");
+// }
+// else
+// {
+//     Console.WriteLine("Пароли не совпадают. Попробуйте снова.");
+// }
+
+
+
+// САМОСТОЯТЕЛЬНАЯ РАБОТА 2
+
+Console.Write("Введите возраст: ");
+int age = int.Parse(Console.ReadLine());
+
+    if (age >= 18)
+    {
+        Console.WriteLine("Доступ разрешен.");
+    }   else
 {
-    Console.WriteLine("Пароль подтвержден.");
+    Console.WriteLine("Доступ запрещен.");
 }
-else
-{
-    Console.WriteLine("Пароли не совпадают. Попробуйте снова.");
-}
+
