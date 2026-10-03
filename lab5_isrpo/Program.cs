@@ -231,14 +231,53 @@
 
 // САМОСТОЯТЕЛЬНАЯ РАБОТА 2
 
-Console.Write("Введите возраст: ");
-int age = int.Parse(Console.ReadLine());
+// Console.Write("Введите возраст: ");
+// int age = int.Parse(Console.ReadLine());
 
-    if (age >= 18)
-    {
-        Console.WriteLine("Доступ разрешен.");
-    }   else
+//     if (age >= 18)
+//     {
+//         Console.WriteLine("Доступ разрешен.");
+//     }   else
+// {
+//     Console.WriteLine("Доступ запрещен.");
+// }
+
+Console.Write("Введите первое число: ");
+double a = double.Parse(Console.ReadLine());
+
+Console.Write("Введите второе число: ");
+double b = double.Parse(Console.ReadLine());
+
+Console.Write("Введите операцию \n(+, -, *, /): ");
+string op = Console.ReadLine();
+
+double result;
+switch (op)
 {
-    Console.WriteLine("Доступ запрещен.");
+    case "+":
+        result = a + b;
+        Console.WriteLine($"{a} + {b} = {result}");
+        break;
+    case "-":
+        result = a - b;
+        Console.WriteLine($"{a} - {b} = {result}");
+        break;
+    case "*":
+        result = a * b;
+        Console.WriteLine($"{a} * {b} = {result}");
+        break;
+    case "/":
+        if (b == 0)
+        {
+            Console.WriteLine("Ошибка: деление на ноль.");
+        }
+        else
+        {
+            result = a / b;
+            Console.WriteLine($"{a} / {b} = {result}");
+        }
+        break;
+    default:
+        Console.WriteLine("Неизвестная операция.");
+        break;
 }
-
