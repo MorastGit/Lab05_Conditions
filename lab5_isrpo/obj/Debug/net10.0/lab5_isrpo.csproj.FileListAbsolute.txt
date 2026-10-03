@@ -1,0 +1,15 @@
+/Users/elena/Documents/volgu_proj/rider_proj_isrpo/lab5_isrpo/lab5_isrpo/bin/Debug/net10.0/lab5_isrpo
+/Users/elena/Documents/volgu_proj/rider_proj_isrpo/lab5_isrpo/lab5_isrpo/bin/Debug/net10.0/lab5_isrpo.deps.json
+/Users/elena/Documents/volgu_proj/rider_proj_isrpo/lab5_isrpo/lab5_isrpo/bin/Debug/net10.0/lab5_isrpo.runtimeconfig.json
+/Users/elena/Documents/volgu_proj/rider_proj_isrpo/lab5_isrpo/lab5_isrpo/bin/Debug/net10.0/lab5_isrpo.dll
+/Users/elena/Documents/volgu_proj/rider_proj_isrpo/lab5_isrpo/lab5_isrpo/bin/Debug/net10.0/lab5_isrpo.pdb
+/Users/elena/Documents/volgu_proj/rider_proj_isrpo/lab5_isrpo/lab5_isrpo/obj/Debug/net10.0/lab5_isrpo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elena/Documents/volgu_proj/rider_proj_isrpo/lab5_isrpo/lab5_isrpo/obj/Debug/net10.0/lab5_isrpo.AssemblyInfoInputs.cache
+/Users/elena/Documents/volgu_proj/rider_proj_isrpo/lab5_isrpo/lab5_isrpo/obj/Debug/net10.0/lab5_isrpo.AssemblyInfo.cs
+/Users/elena/Documents/volgu_proj/rider_proj_isrpo/lab5_isrpo/lab5_isrpo/obj/Debug/net10.0/lab5_isrpo.csproj.CoreCompileInputs.cache
+/Users/elena/Documents/volgu_proj/rider_proj_isrpo/lab5_isrpo/lab5_isrpo/obj/Debug/net10.0/lab5_isrpo.sourcelink.json
+/Users/elena/Documents/volgu_proj/rider_proj_isrpo/lab5_isrpo/lab5_isrpo/obj/Debug/net10.0/lab5_isrpo.dll
+/Users/elena/Documents/volgu_proj/rider_proj_isrpo/lab5_isrpo/lab5_isrpo/obj/Debug/net10.0/refint/lab5_isrpo.dll
+/Users/elena/Documents/volgu_proj/rider_proj_isrpo/lab5_isrpo/lab5_isrpo/obj/Debug/net10.0/lab5_isrpo.pdb
+/Users/elena/Documents/volgu_proj/rider_proj_isrpo/lab5_isrpo/lab5_isrpo/obj/Debug/net10.0/lab5_isrpo.genruntimeconfig.cache
+/Users/elena/Documents/volgu_proj/rider_proj_isrpo/lab5_isrpo/lab5_isrpo/obj/Debug/net10.0/ref/lab5_isrpo.dll

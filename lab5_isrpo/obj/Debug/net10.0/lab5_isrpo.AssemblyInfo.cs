@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab5_isrpo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f30eb4fd4af74b62e70f98172be1bbe288687ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab5_isrpo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab5_isrpo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
