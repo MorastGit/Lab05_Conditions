@@ -242,42 +242,54 @@
 //     Console.WriteLine("Доступ запрещен.");
 // }
 
-Console.Write("Введите первое число: ");
-double a = double.Parse(Console.ReadLine());
+// Console.Write("Введите первое число: ");
+// double a = double.Parse(Console.ReadLine());
 
-Console.Write("Введите второе число: ");
-double b = double.Parse(Console.ReadLine());
+// Console.Write("Введите второе число: ");
+// double b = double.Parse(Console.ReadLine());
 
-Console.Write("Введите операцию \n(+, -, *, /): ");
-string op = Console.ReadLine();
+// Console.Write("Введите операцию \n(+, -, *, /): ");
+// string op = Console.ReadLine();
 
-double result;
-switch (op)
-{
-    case "+":
-        result = a + b;
-        Console.WriteLine($"{a} + {b} = {result}");
-        break;
-    case "-":
-        result = a - b;
-        Console.WriteLine($"{a} - {b} = {result}");
-        break;
-    case "*":
-        result = a * b;
-        Console.WriteLine($"{a} * {b} = {result}");
-        break;
-    case "/":
-        if (b == 0)
-        {
-            Console.WriteLine("Ошибка: деление на ноль.");
-        }
-        else
-        {
-            result = a / b;
-            Console.WriteLine($"{a} / {b} = {result}");
-        }
-        break;
-    default:
-        Console.WriteLine("Неизвестная операция.");
-        break;
+// double result;
+// switch (op)
+// {
+//     case "+":
+//         result = a + b;
+//         Console.WriteLine($"{a} + {b} = {result}");
+//         break;
+//     case "-":
+//         result = a - b;
+//         Console.WriteLine($"{a} - {b} = {result}");
+//         break;
+//     case "*":
+//         result = a * b;
+//         Console.WriteLine($"{a} * {b} = {result}");
+//         break;
+//     case "/":
+//         if (b == 0)
+//         {
+//             Console.WriteLine("Ошибка: деление на ноль.");
+//         }
+//         else
+//         {
+//             result = a / b;
+//             Console.WriteLine($"{a} / {b} = {result}");
+//         }
+//         break;
+//     default:
+//         Console.WriteLine("Неизвестная операция.");
+//         break;
+// }
+
+int sum = 0;
+int count = 0;
+while (count < 3) {
+    Console.Write($"Введите число {count + 1}: ");
+    int number = int.Parse(Console.ReadLine());
+    if (number > 0) {
+        sum += number;
+    }
+    count++;
 }
+Console.WriteLine($"Сумма положительных чисел: {sum}");
